@@ -3,9 +3,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 //css
-import './css/proyects.css';
+import './css/home.css';
 
-const proyects = () => 
+const Home = () => 
 {
     return
     (
@@ -26,4 +26,4 @@ const proyects = () =>
 
     )
 }
-export default proyects;
+export default Home;
