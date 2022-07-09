@@ -5,14 +5,16 @@ import { useNavigate } from "react-router-dom";
 //css
 import './css/proyects.css';
 
-const proyects = () => 
+let navigation - useNavigate;
+
+const proyects =  (navigate) =>
 {
     return
     (
         <div className="">
             <div>
                 <div className="">
-
+                     <button onClick={() => {navigate('test')}}>hola</button>
                 </div>
                 <div className="">
 

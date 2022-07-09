@@ -5,14 +5,16 @@ import { useNavigate } from "react-router-dom";
 //css
 import './css/Abbout.css';
 
-const Abbout = () => 
+let navigation - useNavigate;
+
+const Abbout = (navigation) => 
 {
     return
     (
         <div className="">
             <div>
                 <div className="">
-
+                    <button onClick={()=>{navigation('test')}}></button>                                      
                 </div>
                 <div className="">
 
