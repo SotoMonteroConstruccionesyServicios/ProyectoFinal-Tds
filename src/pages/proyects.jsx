@@ -3,9 +3,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 //css
-import './css/proyects.css';
+import '../Css/Proyects.css';
 
-let navigation - useNavigate;
+let navigation = useNavigate;
 
 const proyects =  (navigate) =>
 {

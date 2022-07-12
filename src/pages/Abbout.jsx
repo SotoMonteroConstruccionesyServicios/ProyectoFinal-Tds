@@ -3,9 +3,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 //css
-import './css/Abbout.css';
+import '../Css/Abbout.css';
+let navigation = useNavigate;
 
-let navigation - useNavigate;
 
 const Abbout = (navigation) => 
 {

@@ -3,26 +3,18 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 //css
-import './css/home.css';
+import '../Css/home.css';
 
-let navigation - useNavigate;
+let navigation = useNavigate;
+
+console.log("funcionando")
 
 const Home = (navigate) =>
 {
     return
     (
-        <div className="">
-            <div>
-                <div className="">
-                     <button onClick={() => {navigate('test')}}>hola</button>
-                </div>
-                <div className="">
-
-                </div>
-                <div className="">
-
-                </div>
-            </div>
+        <div >
+            <h1>hola mundo</h1>
         </div>
 
 

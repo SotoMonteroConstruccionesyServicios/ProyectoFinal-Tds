@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 //css
-import './css/users.css';
+import '../Css/Users.css';
 
 let navigate = useNavigate;
 
