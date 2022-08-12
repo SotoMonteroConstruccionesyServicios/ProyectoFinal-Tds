@@ -1,5 +1,6 @@
 import react from 'react'
-import {useNavigate} from 'react-router'
+import { Button } from 'react-bootstrap'
+import {useNavigate} from 'react-router-dom'
 
 import './Navbar.css'
 
@@ -18,10 +19,10 @@ const navbar = (navigate) =>
         <div class="collapse navbar-collapse" id="navbarNav">
           <img className='logo' src="https://media.discordapp.net/attachments/985659106796929095/1001952488792006777/SOTO_MONTERO_LOGO.png" alt="" />
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><h1 onClick={()=>{navigate('/')}}>HOME</h1></li>
-            <li class="nav-item"><h1 onClick={()=>{navigate('Abbout')}}>Abbout US</h1></li>
-            <li class="nav-item"><h1 onClick={()=>{navigate('proyects')}}>Proyects</h1></li>
-            <li class="nav-item"><h1 onClick={()=>{navigate('Services')}}>Services</h1></li>
+            <li class="nav-item"><a href='/'>HOME</a></li>
+            <li class="nav-item"><a href = 'about'>Abbout US</a></li>
+            <li class="nav-item"><a href='proyects'>Proyects</a></li>
+            <li class="nav-item"><a href='services'>Services</a></li>
           </ul>
         </div>
         </nav>

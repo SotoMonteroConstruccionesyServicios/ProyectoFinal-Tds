@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route } from 'react-router-dom';
+import {Routes, Route, Link } from 'react-router-dom';
 
 //css
 import './App.css';
@@ -20,10 +20,9 @@ import {Card,Button}  from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-    <h1>Welcome to React Router!</h1>
     <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="about" element={<About/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
         <Route path="proyects" element={<Proyects/>} />
         <Route path="services" element={<Services/>} />
     </Routes>
