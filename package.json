@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
+=======
+>>>>>>> 4bbd4c6a4fcdd8e195b7fd7747914902462f881e
     "@react-three/drei": "^9.21.0",
     "@react-three/fiber": "^8.3.1",
     "@svgr/plugin-svgo": "^6.3.1",

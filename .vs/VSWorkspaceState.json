@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
   ],
+=======
+    "",
+    "\\src",
+    "\\src\\Components",
+    "\\src\\pages"
+  ],
+  "SelectedNode": "\\src\\Components\\foter.jsx",
+>>>>>>> 4bbd4c6a4fcdd8e195b7fd7747914902462f881e
   "PreviewInSolutionExplorer": false
 }
