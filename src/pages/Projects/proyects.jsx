@@ -1,25 +1,17 @@
-import React from 'react';
-import {Routes, Route } from 'react-router-dom';
+//imports the react resources
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 //css
-import './App.css';
+import './Proyects.css';
 
-//importing pages
+let navigation = useNavigate;
 
-//mport Home from '../src/pages/Home/home';
-//import About from '../src/pages/Abbout/Abbout';
-//import Proyects from '../src/pages//Projects/proyects';
-//import Services from '../src/pages/Services/Services';
-
-import {Card,Button}  from 'react-bootstrap'
-
-// use this piece of  code to import a page 
-//import ome from './pages/home'
-
-
-function App() {
-  return (
-    <div className="App" onLoad={console.log('funcionando')}>
+const proyects =  (navigate) =>
+{
+    return (  
+      <div className="App" onLoad={console.log('funcionando')}>
                   <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -103,7 +95,6 @@ function App() {
                     </div>
 
     </div>    
-  );
-}
-
-export default App;
+    )
+  }
+export default proyects;
