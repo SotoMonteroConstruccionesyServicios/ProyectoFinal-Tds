@@ -1,16 +1,17 @@
-//react 
 import React from 'react';
 import {Routes, Route } from 'react-router-dom';
 
 //css
-import './Css/App.css';
+import './App.css';
 
 //importing pages
-import Home from './pages/home';
-import Proyects from './pages/proyects';
-import Abbout from './pages/Abbout';
-import Users from './pages/users';
-//import test from './pages/test';;
+
+import Home from '../src/pages/Home/home';
+import About from '../src/pages/Abbout/Abbout';
+import Proyects from '../src/pages//Projects/proyects';
+import Services from '../src/pages/Services/Services';
+
+import {Card,Button}  from 'react-bootstrap'
 
 // use this piece of  code to import a page 
 //import ome from './pages/home'
@@ -19,15 +20,15 @@ import Users from './pages/users';
 function App() {
   return (
     <div className="App">
-      {/* this piece of code return the page*/}
+    <h1>Welcome to React Router!</h1>
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='Abbout' element={<Abbout/>}/>
-      <Route path='Proyects' element={<Proyects/>}/>
-      <Route path='Users' element={<Users/>}/>
-      <Route path='test' element={<test/>}/>
+        <Route path="/" element={<Home/>} />
+        <Route path="about" element={<About/>} />
+        <Route path="proyects" element={<Proyects/>} />
+        <Route path="services" element={<Services/>} />
     </Routes>
-    </div>
+</div>
+   
   );
 }
 

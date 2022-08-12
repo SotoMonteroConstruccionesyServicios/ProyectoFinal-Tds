@@ -1,0 +1,30 @@
+.logo
+{
+    width:17vmin
+}
+.nav-item
+{
+    margin-right:2vmin
+}
+.nav-item:hover
+{
+    background-color:rgba(0, 0, 0, 0.1)
+}
+.nav-item:active
+{
+    background-color:rgba(0, 0, 0, 0.2)
+}
+
+h1
+{
+    font-size:3vmin;
+    color:black;
+}
+h1:hover
+{
+    color:rgba(0, 0, 0, 0.5)
+}
+h1:active
+{
+    color:rgba(0, 0, 0, 0.7)
+}
