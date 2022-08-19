@@ -6,9 +6,9 @@ import {useNavigate} from 'react-router-dom';
 //css
 import './Abbout.css';
 
-let navigate = useNavigate;
 
-function Abbout (navigate) 
+
+function Abbout () 
 {
     return(
         <div className="App">

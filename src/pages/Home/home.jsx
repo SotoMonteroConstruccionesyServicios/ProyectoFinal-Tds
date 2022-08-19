@@ -1,5 +1,4 @@
 //imports the react resources
-import { render } from "@testing-library/react";
 import React from "react";
 
 import {useNavigate} from 'react-router'
@@ -7,10 +6,9 @@ import {useNavigate} from 'react-router'
 //css
 import './home.css';
 
-let navigate = useNavigate;
 
 
-function home(navigate)
+function home()
 {
     return(
             <div className="App" onLoad={console.log('funcionando')}>

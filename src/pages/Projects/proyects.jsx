@@ -8,9 +8,8 @@ import './Proyects.css';
 //bootstrap
 import {Card}  from 'react-bootstrap'
 
-let navigate = useNavigate
 
-const proyects =  (navigate) =>
+const proyects =  () =>
 {
     return (  
       <div className="App">
@@ -82,7 +81,7 @@ const proyects =  (navigate) =>
     </Card.Text>
   </Card.ImgOverlay>
 </Card>
-<Card className="bg-dark text-black card">
+<Card className="bg-dark text-black ">
   <Card.Img src="https://cdn.discordapp.com/attachments/985659106796929095/1007784575335944293/unknown.png" alt="Card image" />
   <Card.ImgOverlay>
     <Card.Title className='bg'>Card title</Card.Title>
