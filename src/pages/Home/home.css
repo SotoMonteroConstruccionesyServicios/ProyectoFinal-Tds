@@ -56,6 +56,14 @@
 .text-center{
 
   color: white;
-
 }
 
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  
+}
