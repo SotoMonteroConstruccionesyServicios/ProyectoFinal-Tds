@@ -18,7 +18,7 @@ const Abbout = (navigation) =>
                     <div class="carousel-item active">
                         <img src="https://picsum.photos/1320/720" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <a href="servicios" class="btn btn-lg btn-outline-light rounded-0"> CONOCER MÁS</a>
+                            <a a href='Services' class="btn btn-lg btn-outline-light rounded-0"> CONOCER MÁS</a>
                         </div>
                     </div>
                     <div class="carousel-item">
