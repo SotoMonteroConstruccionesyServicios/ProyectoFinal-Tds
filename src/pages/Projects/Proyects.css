@@ -37,37 +37,4 @@
   }
 }
 
-.cardiv
-{ 
-  margin-left: auto;    
-  display: grid;
-  grid-template-columns: auto auto;
-  font-size: calc(10px + 2vmin);
-  color:black;
-}
-.card
-{
-  width: 80%;
-  display: flex;
-}
 
-.bg{background-color:black;
-  color:white;
-  font-size: calc(10px + 2vmin);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: small;
-}
-
-@media screen and (max-width: 900px) {
-  .card {
-    width: 100%;
-  }
-  .bg
-  {
-    font-size: small;
-  }
-}
-  

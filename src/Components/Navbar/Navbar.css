@@ -1,19 +1,19 @@
 .logo
 {
-    width:17vmin
+    width:38vmin
 }
 .nav-item
 {
-    margin-right:2vmin
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-right:4vmin
 }
+
 .nav-item:hover
 {
-    background-color:rgba(0, 0, 0, 0.1)
+    background-color:white
 }
-.nav-item:active
-{
-    background-color:rgba(0, 0, 0, 0.2)
-}
+
 
 h1
 {
@@ -28,3 +28,4 @@ h1:active
 {
     color:rgba(0, 0, 0, 0.7)
 }
+

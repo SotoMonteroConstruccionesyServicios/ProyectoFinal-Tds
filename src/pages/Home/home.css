@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.h1 {
+
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #053780;
+
+}
+
+.h2{
+
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #053780;
+
+}
+
+.text-center{
+
+  color: white;
+
+}
+

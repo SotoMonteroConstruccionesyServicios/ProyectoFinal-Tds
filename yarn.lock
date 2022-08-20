@@ -1776,10 +1776,10 @@
   "resolved" "https://registry.npmjs.org/@react-spring/types/-/types-9.5.2.tgz"
   "version" "9.5.2"
 
-"@react-three/drei@^9.21.0":
-  "integrity" "sha512-+j0L9+sfIGIwoR0O/UwtBWW0Oo/AWj9nnvKTtRS4e2awHA872lHdOHL+L5e6jKJyV4ZyjOEkQFE8QaJXDPYgBQ=="
-  "resolved" "https://registry.npmjs.org/@react-three/drei/-/drei-9.21.0.tgz"
-  "version" "9.21.0"
+"@react-three/drei@^9.22.7":
+  "integrity" "sha512-LCjdSo7iaVcZcYuCQcUQxkbGMxO7o4Pnt+5q0sDGui9VYHjCR+33D29ZdAUf7zBsfu7lWMSk7+rPwhzC9cSeAQ=="
+  "resolved" "https://registry.npmjs.org/@react-three/drei/-/drei-9.22.7.tgz"
+  "version" "9.22.7"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
@@ -1799,7 +1799,7 @@
     "utility-types" "^3.10.0"
     "zustand" "^3.5.13"
 
-"@react-three/fiber@^8.3.1":
+"@react-three/fiber@^8.3.1", "@react-three/fiber@latest":
   "integrity" "sha512-5I1fcnE/3Y89MBNtC58N4ZEm962NqlFwBChhS09AVBz9PmD51uwY0z4y6WPMoVVKhUG39CS6iSbTPQwZygkerA=="
   "resolved" "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.3.1.tgz"
   "version" "8.3.1"
@@ -8557,6 +8557,13 @@
     "workbox-webpack-plugin" "^6.4.1"
   optionalDependencies:
     "fsevents" "^2.3.2"
+
+"react-three-fiber@^6.0.13":
+  "integrity" "sha512-uShQnkMVLvnzwf3YzY9mnzCnpmLpvTQkc0ycrtwk8fyjXmZt2695tLn3tufPF6uxq06UKJRKJcjCVCMXyUcEPQ=="
+  "resolved" "https://registry.npmjs.org/react-three-fiber/-/react-three-fiber-6.0.13.tgz"
+  "version" "6.0.13"
+  dependencies:
+    "@react-three/fiber" "latest"
 
 "react-transition-group@^4.4.2":
   "integrity" "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g=="

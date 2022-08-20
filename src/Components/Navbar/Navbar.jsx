@@ -1,6 +1,5 @@
 import react from 'react'
-import { Button } from 'react-bootstrap'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router'
 
 import './Navbar.css'
 
@@ -17,12 +16,12 @@ const navbar = (navigate) =>
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <img className='logo' src="https://media.discordapp.net/attachments/985659106796929095/1001952488792006777/SOTO_MONTERO_LOGO.png" alt="" />
+          <img className='logo' src="https://media.discordapp.net/attachments/985659106796929095/1010028767277748234/unknown.png?width=608&height=171" alt="" />
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href='/'>HOME</a></li>
-            <li class="nav-item"><a href = 'about'>Abbout US</a></li>
-            <li class="nav-item"><a href='proyects'>Proyects</a></li>
-            <li class="nav-item"><a href='services'>Services</a></li>
+            <li class="nav-item active"><a href='/'>Pagina Principal</a></li>
+            <li class="nav-item"><a href = 'proyects'>Proyectos</a></li>
+            <li class="nav-item"><a href='Services'>Servicios</a></li>
+            <li class="nav-item"><a href = 'About'>Sobre Nosotros</a></li>
           </ul>
         </div>
         </nav>
