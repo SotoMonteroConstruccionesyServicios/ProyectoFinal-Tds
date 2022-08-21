@@ -60,18 +60,8 @@
 @media screen and (max-width: 1000px) {
   .tarjetas {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .tarjetas {
-    flex-direction: column;
-  }
-}
-  
-@media screen and (max-width: 600px) {
-  .tarjetas {
-    flex-direction: column;
+    width: 75%;
+    margin-left: 95px;
   }
 }
   
