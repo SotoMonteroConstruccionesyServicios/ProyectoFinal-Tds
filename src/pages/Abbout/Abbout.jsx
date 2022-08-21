@@ -21,36 +21,46 @@ const Abbout = () =>
             </center>
             <br/>
             <br/>
-            <div className='tarjetas'>
-            <Card className='Cards'>
-              <Card.Body>
-                  <Card.Img variant="bottom" src ='https://picsum.photos/720/315'/>
-                  <Card.Title>MISIÓN</Card.Title>
-                  <Card.Text>
-                  Satisfacer a nuestros clientes brindando un servicio de calidad, capaz de lograr empleados proactivos, con conciencia proactiva, lealtad y honestidad, capaces de alcanzar metas y objetivos especiales, y compromiso con nuestros clientes, accionistas y proveedores. 
-                  </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='Cards'>
-              <Card.Body>
-                  <Card.Img variant="bottom" src ='https://picsum.photos/720/315'/>
-                  <Card.Title>VISIÓN</Card.Title>
-                  <Card.Text>
-                  Proporcionar hogares para familias de todos los niveles de ingresos en nuestro país mediante la construcción de viviendas que mejoren la vida. calidad de vida de los usuarios. 
-                  </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className='Cards'>
-              <Card.Body>
-                  <Card.Img variant="bottom" src ='https://picsum.photos/720/315'/>
-                  <Card.Title>VALORES</Card.Title>
-                  <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                  </Card.Text>
-              </Card.Body>
-            </Card>
+
+          <center>
+            <div class="tarjetas">
+              <div class="container">
+                <div className="row">
+                  <div className="col-md-4">
+                    <div className="card">
+                        <div className="img1"><img src="https://media.discordapp.net/attachments/985659106796929095/1011034976600469676/unknown.png" alt="" /></div>
+                        <div className="main-text">
+                          <h2>MISIÓN</h2>
+                          <p>Satisfacer a nuestros clientes brindando un servicio de calidad, capaz con cde lograr empleados proactivos, mostrando compromiso con nuestros clientes y proveedores.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="card">
+                        <div className="img1"><img src="https://media.discordapp.net/attachments/985659106796929095/1011035107420798986/unknown.png" alt="" /></div>
+                        <div className="main-text">
+                          <h2>VISIÓN</h2>
+                          <p>Proporcionar hogares para familias de todos los niveles de ingresos en nuestro país mediante la construcción de viviendas que mejoren la vida. calidad de vida de los usuarios. </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="card">
+                        <div className="img1"><img src="https://media.discordapp.net/attachments/985659106796929095/1011035186789634058/unknown.png" alt="" /></div>
+                        <div className="main-text">
+                          <h2>VALORES</h2>
+                          <p>Responsabilidad</p>
+                          <p>Crecimiento</p>
+                          <p>Servicio al Cliente</p>
+                          <p>Trabajo en Equipo</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
+          </center>
         </body>
     </div>
 
