@@ -20,7 +20,7 @@ const proyects =  () =>
                   </div>
                   <div className='tarjetas'>
                   <Card  className="bg-dark text-black Cards">
-      <Card.Img  src="https://picsum.photos/100/270" alt="Card image" />
+      <Card.Img  src='https://media.discordapp.net/attachments/985659106796929095/1007785073594081310/unknown.png?width=711&height=702' alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
         <Card.Text>
@@ -30,7 +30,7 @@ const proyects =  () =>
       </Card.ImgOverlay>
     </Card>
     <Card  className="bg-dark text-black Cards">
-    <Card.Img  src="https://picsum.photos/100/270" alt="Card image" />
+    <Card.Img  src="https://media.discordapp.net/attachments/985659106796929095/1007785122151546880/unknown.png?width=720&height=540" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
         <Card.Text>
@@ -40,7 +40,7 @@ const proyects =  () =>
       </Card.ImgOverlay>
     </Card>
     <Card  className="bg-dark text-black Cards">
-    <Card.Img  src="https://picsum.photos/100/270" alt="Card image" />
+    <Card.Img  src="https://media.discordapp.net/attachments/985659106796929095/1007784784354889758/unknown.png?width=526&height=702" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
         <Card.Text>
@@ -50,7 +50,7 @@ const proyects =  () =>
       </Card.ImgOverlay>
     </Card>
     <Card  className="bg-dark text-black Cards">
-      <Card.Img src="https://picsum.photos/100/270" alt="Card image" />
+      <Card.Img src="https://media.discordapp.net/attachments/985659106796929095/1007784575335944293/unknown.png?width=526&height=702" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
         <Card.Text>
@@ -60,7 +60,7 @@ const proyects =  () =>
       </Card.ImgOverlay>
     </Card>
     <Card  className="bg-dark text-black Cards">
-      <Card.Img src="https://picsum.photos/100/270" alt="Card image" />
+      <Card.Img src="https://media.discordapp.net/attachments/985659106796929095/1007784514459815996/unknown.png?width=526&height=702" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
         <Card.Text>
