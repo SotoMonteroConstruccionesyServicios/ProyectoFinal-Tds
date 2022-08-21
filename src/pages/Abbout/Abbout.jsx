@@ -17,7 +17,7 @@ const Abbout = () =>
             <br/>
             <br/>
             <center>
-              <t1> About US </t1>
+              <t1> Acerca de Nosotros </t1>
             </center>
             <br/>
             <br/>
