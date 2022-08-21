@@ -7,5 +7,27 @@ body {
  }
  .d3
  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     
+ }
+ .sus
+ {
+    width: 100%;
+    height: 100%;
+ }
+
+
+ .burbuja{
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 50%;
  }
