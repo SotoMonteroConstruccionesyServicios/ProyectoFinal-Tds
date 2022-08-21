@@ -43,8 +43,10 @@
     color: #053780;
   }
 
-  body{
-    background: #ddd;
+  t2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #053780;
   }
 
   .profile-area{
