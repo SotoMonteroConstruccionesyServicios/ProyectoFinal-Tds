@@ -105,6 +105,22 @@ const Abbout = () =>
               </div>
             </div>
             </center>
+            <br/>
+            <div class="containerf">
+            <t3>Da tu Opinión</t3>
+                <form>
+                  <div className="id">
+                    <input type="text" placeholder="Nombre Completo"/>
+                    <i className="far fa-user"></i>
+                  </div>
+                  <div className="id">
+                    <input type="email" placeholder="Correo Electrinico"/>
+                    <i className="far fa-envelope"></i>
+                  </div>
+                  <textarea cols="15" rows="5" placeholder="Ingrese su Opinión aqui..."></textarea>
+                  <button>Enviar</button>  
+                </form>
+            </div>
         </body>
     </div>
 

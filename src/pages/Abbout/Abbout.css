@@ -137,4 +137,43 @@
     }
   }
 
+  t3{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #b8d2f7;
+  }
+
+  .containerf{
+    width: 360px;
+    background-color: #000;
+    box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
+    opacity: 0.6;
+  }
   
+  .containerf form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+  }
+
+  form .id{
+    position: relative;
+  }
+
+  .id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+  }
+
+  form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding: 0 15px;
+    font-size: 20px;
+  }
