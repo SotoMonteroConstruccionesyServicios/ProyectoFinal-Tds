@@ -11,7 +11,30 @@
    display: flex;
    background-color: aqua;
 }
-.item{
+.items{
    z-index: 3;
    position:relative;
+   height: 7vmin;
+}
+.items:hover{
+   transition: .7s;
+   height: 20vmin;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+   padding: 0;
+}
+li{
+   margin-left: 25px;
+}
+.nav{
+   z-index: 3;
+   position:relative;
+   width: 100%;
+   margin-left: 35%;
 }

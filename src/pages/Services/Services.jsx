@@ -6,6 +6,24 @@ import { Center, OrbitControls } from '@react-three/drei';
 
 import './Services.css';
 
+
+var x,y,z;
+
+var ebn = document.getElementById('ebn');
+
+var roles
+switch(roles){
+  case 1: ebn 
+}
+
+
+if(ebn.addEventListener('mouseover',constructor)){
+  x = 45;
+  y=60;
+  z=115;
+}
+
+
 function  Services() {
   return (
     <>
@@ -14,19 +32,23 @@ function  Services() {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <a class="navbar-brand" href='/'><img className='logo' src="https://media.discordapp.net/attachments/985659106796929095/1010028767277748234/unknown.png?width=608&height=171" alt=""/></a>
-          <ul class="navbar-nav ml-auto">
-            <img src='' alt=''/>
-            <li><a href='/'>Pagina Principal</a></li>
-            <li><a href = 'proyects'>Proyectos</a></li>
-            <li><a href='Services'>Servicios</a></li>
-            <li><a href = 'About'>Sobre Nosotros</a></li>
+        <div class="collapse navbar-collapse"className='nav' id="navbarNav">
+          <ul class="navbar-nav ml-auto" className='item'>
+            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011104472468037733/ebanista.png' alt=''/>
+            <li id='ebn'><a></a></li>
+            <img className='items'/* onMouseOver={constructor}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103983277973545/construccion.png' alt/>
+            <li><a></a></li>
+            <img className='items'/* onMouseOver={electricista}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103532453200003/electricidad.png' alt/>
+            <li><a></a></li>
+            <img className='items' /*onMouseOver={plomero}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103119704330273/plomeria.png' alt/>
+            <li><a></a></li>
+            <img className='items'/* onMouseOver={arquitecto}*/ src="https://cdn.discordapp.com/attachments/985659106796929095/1011102755651342366/plano.png" alt="" />
+            <li><a></a></li>
           </ul>
         </div>
         </nav>
     <div className='d3'>
-    <Canvas camera={{zoom: 1, position:[15,20,15]}}>
+    <Canvas camera={{zoom: 1, position:[x,y,z]}}>
       <ambientLight intensity={0.5}/>
       <pointLight position={[35,35,0]} intensity={0.4}/>
       <pointLight position={[-35,35,0]} intensity={0.4}/>
