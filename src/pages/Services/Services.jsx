@@ -6,7 +6,7 @@ import {  OrbitControls } from '@react-three/drei';
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-
+import { send } from 'emailjs-com';
 
 import './Services.css';
 
@@ -24,6 +24,27 @@ function  Services() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  // mailjs  a mail api 
+
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    to_name: '',
+    message: '',
+    reply_to: '',
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    {/* --- METHOD TO SEND THE MAIL --- */}
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
+
+
 
 var x,y,z;
 x = 75;
