@@ -126,7 +126,7 @@ const Abbout = () =>
                         <div className="img2"><img src="https://media.discordapp.net/attachments/985659106796929095/1011083736097505350/unknown.png" alt="" /></div>
                         <div className="main-text1">
                           <h3>Luis Soto</h3>
-                          <p>Lic.en Software/Gerente de Servicios</p>
+                          <p>Lic. en Software/Gerente de Servicios</p>
                           <p>Administra el servicio al cliente de la compañia Soto Montero - Construcciones y Servios</p>
                         </div>
                     </div>

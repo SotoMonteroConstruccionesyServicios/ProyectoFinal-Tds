@@ -11,6 +11,13 @@ import Modal from 'react-bootstrap/Modal';
 import './Services.css';
 
 
+var x,y,z;
+
+  x = 45;
+  y=60;
+  z=115;
+
+
 function  Services() {
 
   const [show, setShow] = useState(false);

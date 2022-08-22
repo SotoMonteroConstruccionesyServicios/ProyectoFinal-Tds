@@ -144,10 +144,12 @@
   }
 
   .containerf{
-    width: 360px;
+    width: 320px;
     background-color: #000;
     box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
     opacity: 0.6;
+    overflow: hidden;
+    border-radius: 15px;
   }
   
   .containerf form{
@@ -158,7 +160,6 @@
 
   form .id{
     position: relative;
-
   }
 
   .id i{
