@@ -39,7 +39,8 @@
 
 .tarjetas
 {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   background-color: #fff;
   border-radius: 10px;
   margin-top: 10px;
@@ -49,14 +50,17 @@
 }
 
 .tarjetas .Cards{
-  width: 100%;
-  height: fit-content;
+  width: auto;
+  height: content;
   display: flex;
   margin-right:25px;
+  margin-left:15px;
   align-items: center;
   box-shadow: 0px 0px 10px rgb(171, 170, 170);
   border-radius: 20px;
 }
+
+
 @media screen and (max-width: 1000px) {
   .tarjetas {
     flex-direction: column;
