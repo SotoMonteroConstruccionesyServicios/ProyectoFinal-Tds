@@ -1,12 +1,12 @@
 .logo
 {
-    width:38vmin
+    width:36vmin
 }
 .nav-item
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    margin-right:4vmin
+    margin-left:3vmin
 }
 
 .nav-item:hover

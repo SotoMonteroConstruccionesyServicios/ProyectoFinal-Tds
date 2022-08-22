@@ -28,7 +28,7 @@ const Home  = () =>
                               </div>
                                     <div class="col-12 pt-5  align-items-center pb-5 bg-gray text-white">
                                       <h2 class="h2 pt-2 p-4">SERVICIOS</h2>
-                                      <ul>
+                                        <ul class="text-white text-justify pt-4 p-5">
                                             <li>Plomería</li>
                                             <br/>
                                             <li>Electricidad</li>
