@@ -6,7 +6,6 @@
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
     "@emailjs/browser": "^3.6.2",
-    "@popperjs/core": "^2.11.6",
     "@react-three/drei": "^9.22.7",
     "@react-three/fiber": "^8.3.1",
     "@svgr/core": "^6.3.1",
