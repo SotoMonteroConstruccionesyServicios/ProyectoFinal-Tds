@@ -28,21 +28,14 @@ const Home  = () =>
                               </div>
                                     <div class="col-12 pt-5  align-items-center pb-5 bg-gray text-white">
                                       <h2 class="h2 pt-2 p-4">SERVICIOS</h2>
-                                      <ul>
+                                        <ul className="services row">
                                             <li>Plomería</li>
-                                            <br/>
                                             <li>Electricidad</li>
-                                            <br/>
                                             <li>Carpintería</li>
-                                            <br/>
                                             <li>Vaciado con wincher</li>
-                                            <br/>
                                             <li>Vaciado con tractor</li>
-                                            <br/>
                                             <li>Vaciado con bote</li>
-                                            <br/>
                                             <li>Diseño arquitectónico</li>
-                                            <br/>
                                             <li>Administración de condominios</li>
                                         </ul>
                                   </div>
