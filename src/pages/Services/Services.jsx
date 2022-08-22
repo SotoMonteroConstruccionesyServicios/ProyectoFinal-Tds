@@ -9,19 +9,11 @@ import './Services.css';
 
 var x,y,z;
 
-var ebn = document.getElementById('ebn');
 
-var roles
-switch(roles){
-  case 1: ebn 
-}
-
-
-if(ebn.addEventListener('mouseover',constructor)){
   x = 45;
   y=60;
   z=115;
-}
+
 
 
 function  Services() {
