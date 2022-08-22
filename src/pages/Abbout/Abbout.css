@@ -87,7 +87,7 @@
   }
 
   .card:hover .img2 img{
-    border-color: darkcyan;
+    border-color: rgb(250, 196, 47);
     transition: .7s;
   }
 
@@ -178,12 +178,50 @@
     padding: 0 15px;
     font-size: 20px;
     color: white;
+    padding-right: 45px;
   }
 
-  form input:hover{
-    border: 2px solid #09b200;
-  }
   form textarea {
     background: #181717;
     width: 100%;
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    color: white;
+    margin: 4px 0;
   }
+  
+  form button{
+    margin-top: 5px;
+    border: none;
+    background: #00fff0;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  form input:focus,
+  form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+  }
+
+  form input:focus::placeholder,
+  form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+  }
+
+
+
+
+
+  
