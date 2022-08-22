@@ -2,7 +2,7 @@
 import React,{Suspense } from 'react';
 import { Canvas } from "@react-three/fiber";
 import Casa from "../../Components/casa/Casa";
-import { Center, OrbitControls } from '@react-three/drei';
+import {  OrbitControls } from '@react-three/drei';
 
 import './Services.css';
 
@@ -17,6 +17,12 @@ var x,y,z;
 
 
 function  Services() {
+
+var x,y,z;
+x = 75;
+y=20; 
+z=15
+
   return (
     <>
     <nav class="navbar navbar-expand-lg ">
@@ -27,20 +33,20 @@ function  Services() {
         <div class="collapse navbar-collapse"className='nav' id="navbarNav">
           <ul class="navbar-nav ml-auto" className='item'>
             <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011104472468037733/ebanista.png' alt=''/>
-            <li id='ebn'><a></a></li>
-            <img className='items'/* onMouseOver={constructor}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103983277973545/construccion.png' alt/>
             <li><a></a></li>
-            <img className='items'/* onMouseOver={electricista}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103532453200003/electricidad.png' alt/>
+            <img className='items'src='https://cdn.discordapp.com/attachments/985659106796929095/1011103983277973545/construccion.png' alt/>
             <li><a></a></li>
-            <img className='items' /*onMouseOver={plomero}*/ src='https://cdn.discordapp.com/attachments/985659106796929095/1011103119704330273/plomeria.png' alt/>
+            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103532453200003/electricidad.png' alt/>
             <li><a></a></li>
-            <img className='items'/* onMouseOver={arquitecto}*/ src="https://cdn.discordapp.com/attachments/985659106796929095/1011102755651342366/plano.png" alt="" />
+            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103119704330273/plomeria.png' alt/>
+            <li><a></a></li>
+            <img className='items'src="https://cdn.discordapp.com/attachments/985659106796929095/1011102755651342366/plano.png" alt="" />
             <li><a></a></li>
           </ul>
         </div>
         </nav>
     <div className='d3'>
-    <Canvas camera={{zoom: 1, position:[x,y,z]}}>
+    <Canvas camera={{zoom: 5, position:[x,y,z]}}>
       <ambientLight intensity={0.5}/>
       <pointLight position={[35,35,0]} intensity={0.4}/>
       <pointLight position={[-35,35,0]} intensity={0.4}/>

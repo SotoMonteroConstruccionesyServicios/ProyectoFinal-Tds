@@ -30,6 +30,7 @@ ul {
    padding: 0;
 }
 li{
+   margin-top: 10px;
    margin-left: 25px;
 }
 .nav{

@@ -3,13 +3,40 @@ import React from "react";
 import {Card } from 'react-bootstrap';
 import {Carrousel}  from '../../Components/Carrousel/Carrousel';
 
-
 //css
 import './Abbout.css';
+/*var nodemailer = require('nodemailer');
+
+var mail = '';
+var pass = '';
 
 var email = document.getElementById('email');
 var nombre = document.getElementById('nombre'); 
-var txtl = document.getElementById('send');
+var send = document.getElementById('send');
+
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'youremail@gmail.com',
+    pass: 'yourpassword'
+  }
+});
+
+var mailOptions = {
+  from: mail,
+  to: 'myfriend@yahoo.com',
+  subject: 'saludos de '+nombre.value + '' + email.value,
+  text: text.value
+};
+
+transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});
+*/
 
 const Abbout = () => 
 {
