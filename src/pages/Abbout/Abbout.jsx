@@ -87,6 +87,15 @@ const Abbout = () =>
                         </div>
                     </div>
                   </div>
+                  <div className="col-md-4">
+                    <div className="card">
+                        <div className="img1"><img src="https://media.discordapp.net/attachments/985659106796929095/1011035107420798986/unknown.png" alt="" /></div>
+                        <div className="main-text">
+                          <h2>VISIÓN</h2>
+                          <p>Proporcionar hogares para familias de todos los niveles de ingresos en nuestro país mediante la construcción de viviendas que mejoren la vida. calidad de vida de los usuarios. </p>
+                        </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
