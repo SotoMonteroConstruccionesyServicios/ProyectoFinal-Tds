@@ -37,32 +37,30 @@
   }
 }
 
-.tarjetas
-{
-  display: flex;
-  background-color: #fff;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-right:25px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.tarjetas .Cards{
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  margin-right:25px;
-  align-items: center;
-  box-shadow: 0px 0px 10px rgb(171, 170, 170);
-  border-radius: 20px;
-}
 @media screen and (max-width: 1000px) {
   .tarjetas {
     flex-direction: column;
     width: 75%;
     margin-left: 95px;
   }
+}
+
+.t1{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #053780;
+}
+
+h4{
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #F7AC15;
+}
+
+.text-muted{
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000;
 }
   
 
