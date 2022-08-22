@@ -37,6 +37,7 @@
     "react-scripts": "^5.0.1",
     "react-three-fiber": "^6.0.13",
     "sane": "^5.0.1",
+    "sass-loader": "^13.0.2",
     "selfsigned": "^2.0.1",
     "svgo": "^2.8.0",
     "three": "^0.143.0",

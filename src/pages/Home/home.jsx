@@ -8,10 +8,9 @@ import './home.css';
 const Home  = () =>
 {
     return(
-            <div className="App" onLoad={console.log('funcionando')}>
-            <div>
+            <div className="App">
+            <Carrousel/>
               <body>
-                <Carrousel/>
                   <div class="container mt-5 mb-5">
                       <div class="row align-items-center bg-dark">
                           <div class="col-sm-6">
@@ -52,7 +51,6 @@ const Home  = () =>
                   </div>
               </body>
           </div>
-        </div>
     )
 }
 export default Home;

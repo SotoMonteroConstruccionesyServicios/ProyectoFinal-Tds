@@ -1,33 +1,17 @@
-body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
- }
- .d3
- {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    
- }
- .sus
- {
-    width: 100%;
-    height: 100%;
- }
-
-
- .burbuja{
-
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      border-radius: 50%;
- }
+.d3{
+   z-index: 3;
+   position:relative;
+   width: 100%;
+   height: 80vh;
+}
+.servicesbar{
+   z-index: 3;
+   position:relative;
+   width: 100%;
+   display: flex;
+   background-color: aqua;
+}
+.item{
+   z-index: 3;
+   position:relative;
+}
