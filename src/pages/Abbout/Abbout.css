@@ -158,6 +158,7 @@
 
   form .id{
     position: relative;
+
   }
 
   .id i{
@@ -176,4 +177,13 @@
     background: #181717;
     padding: 0 15px;
     font-size: 20px;
+    color: white;
+  }
+
+  form input:hover{
+    border: 2px solid #09b200;
+  }
+  form textarea {
+    background: #181717;
+    width: 100%;
   }
