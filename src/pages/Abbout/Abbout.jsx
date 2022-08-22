@@ -1,45 +1,31 @@
 //imports the react resources
-import React from "react";
+import React,{Suspense,useState,useRef } from 'react';
 import {Card } from 'react-bootstrap';
 import {Carrousel}  from '../../Components/Carrousel/Carrousel';
+import emailjs from '@emailjs/browser';
+
+
 
 //css
 import './Abbout.css';
-/*var nodemailer = require('nodemailer');
 
-var mail = '';
-var pass = '';
-
-var email = document.getElementById('email');
-var nombre = document.getElementById('nombre'); 
-var send = document.getElementById('send');
-
-var transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'youremail@gmail.com',
-    pass: 'yourpassword'
-  }
-});
-
-var mailOptions = {
-  from: mail,
-  to: 'myfriend@yahoo.com',
-  subject: 'saludos de '+nombre.value + '' + email.value,
-  text: text.value
-};
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Email sent: ' + info.response);
-  }
-});
-*/
 
 const Abbout = () => 
 {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_1dcyvm6', 'template_52n5k4k', form.current, 'g-asMrM53TAD69D-xVzk2')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
     return(
         <div>
         <body>
@@ -137,7 +123,7 @@ const Abbout = () =>
             </center>
             <div class="containerf">
             <t3>Da tu Opinión</t3>
-                <form>
+                <form ref={{form}} onSubmit={{sendEmail}} >
                   <div className="id">
                     <input id= "nombre" type="text" placeholder="Nombre Completo"/>
                     <i className="far fa-user"></i>

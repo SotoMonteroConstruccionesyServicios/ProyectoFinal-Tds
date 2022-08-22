@@ -32,7 +32,7 @@ function  Services() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_52n5k4k', form.current, 'KstO69UH2IrEbXZJ_')
+    emailjs.sendForm('service_1dcyvm6', 'template_52n5k4k', form.current, 'g-asMrM53TAD69D-xVzk2')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -79,14 +79,16 @@ z=15
         </Modal.Header>
         <Modal.Body>
           para obtener informacion acerca de alguno de nuestros servicios por favor diganos su duda y nosotros le responderemos con la mayor brevedad posible 
-          <form className='dudas'ref={form} onSubmit={sendEmail}>
-          <input className='nomb' id= "nombre" type="text" placeholder="Nombre Completo"/>
+          <div className='dudas'>
+          <form ref={form} onSubmit={sendEmail}>
+          <input className='nomb' name="user_name"  id= "nombre" type="text" placeholder="Nombre Completo"/>
           <i className="far fa-user"></i>
-          <input className='email' id="email" type="email" placeholder="Correo Electrinico"/>
+          <input className='email' name="user_email" id="email" type="email" placeholder="Correo Electrinico"/>
           <i className="far fa-user"></i>
-          <textarea className='bio' id="send" color='black' placeholder="Ingrese su duda aqui..."></textarea>
+          <textarea className='bio' name="message" id="send" color='black' placeholder="Ingrese su duda aqui..."></textarea>
           <i className="far fa-user"></i>
           </form >
+          </div>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
