@@ -105,7 +105,7 @@ const Abbout = () =>
                         <div className="main-text1">
                           <h3>Felipe A. Soto Carmona</h3>
                           <p>Ingeniero Civil/Arquitecto en Jefe.</p>
-                          <p>Propietario princiapal de la compañia Soto Montero - Construcciones y Servios</p>
+                          <p>Ceo de la compañia Soto Montero - Construcciones y Servios</p>
                         </div>
                     </div>
                   </div>

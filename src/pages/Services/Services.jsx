@@ -1,13 +1,22 @@
 //imports the react resources
-import React,{Suspense } from 'react';
+import React,{Suspense,useState } from 'react';
 import { Canvas } from "@react-three/fiber";
 import Casa from "../../Components/casa/Casa";
 import {  OrbitControls } from '@react-three/drei';
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
 
 import './Services.css';
 
 
 function  Services() {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
 var x,y,z;
 x = 75;
@@ -23,21 +32,51 @@ z=15
         </button>
         <div class="collapse navbar-collapse"className='nav' id="navbarNav">
           <ul class="navbar-nav ml-auto" className='item'>
-            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011104472468037733/ebanista.png' alt=''/>
+            <a onClick={handleShow}><img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011104472468037733/ebanista.png' alt=''/></a>
             <li><a></a></li>
-            <img className='items'src='https://cdn.discordapp.com/attachments/985659106796929095/1011103983277973545/construccion.png' alt/>
+            <a onClick={handleShow}><img className='items'src='https://cdn.discordapp.com/attachments/985659106796929095/1011103983277973545/construccion.png' alt/></a>
             <li><a></a></li>
-            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103532453200003/electricidad.png' alt/>
+            <a onClick={handleShow}><img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103532453200003/electricidad.png' alt/></a>
             <li><a></a></li>
-            <img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103119704330273/plomeria.png' alt/>
+            <a onClick={handleShow}><img className='items' src='https://cdn.discordapp.com/attachments/985659106796929095/1011103119704330273/plomeria.png' alt/></a>
             <li><a></a></li>
-            <img className='items'src="https://cdn.discordapp.com/attachments/985659106796929095/1011102755651342366/plano.png" alt="" />
+            <a onClick={handleShow}><img className='items'src="https://cdn.discordapp.com/attachments/985659106796929095/1011102755651342366/plano.png" alt="" /></a>
             <li><a></a></li>
           </ul>
         </div>
-        </nav>
+    </nav>
+    <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}>
+        <Modal.Header closeButton>
+          <Modal.Title> preguntenos </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          para obtener informacion acerca de alguno de nuestros servicios por favor diganos su duda y nosotros le responderemos con la mayor brevedad posible 
+          <div className='dudas'>
+          <input className='nomb' id= "nombre" type="text" placeholder="Nombre Completo"/>
+          <i className="far fa-user"></i>
+          <input className='email' id="email" type="email" placeholder="Correo Electrinico"/>
+          <i className="far fa-user"></i>
+          <textarea className='bio' id="send" color='black' placeholder="Ingrese su duda aqui..."></textarea>
+          <i className="far fa-user"></i>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            cerrar
+          </Button>
+          <Button id='btn1' variant="primary"  onClick={handleClose}>enviar</Button>
+        </Modal.Footer>
+    </Modal>
+
+
+        
+
     <div className='d3'>
-    <Canvas camera={{zoom: 5, position:[x,y,z]}}>
+    <Canvas camera={{zoom: 1, position:[x,y,z]}}>
       <ambientLight intensity={0.5}/>
       <pointLight position={[35,35,0]} intensity={0.4}/>
       <pointLight position={[-35,35,0]} intensity={0.4}/>
