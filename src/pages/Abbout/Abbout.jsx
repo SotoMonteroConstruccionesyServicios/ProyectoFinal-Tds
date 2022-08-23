@@ -18,7 +18,7 @@ const Abbout = () =>
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1dcyvm6', 'template_52n5k4k', form.current, 'g-asMrM53TAD69D-xVzk2')
+    emailjs.sendForm('service_1dcyvm6', 'template_52n5k4k', form.current, 'KstO69UH2IrEbXZJ_')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -123,18 +123,15 @@ const Abbout = () =>
             </center>
             <div class="containerf">
             <t3>Da tu Opinión</t3>
-                <form ref={{form}} onSubmit={{sendEmail}} >
-                  <div className="id">
-                    <input id= "nombre" type="text" placeholder="Nombre Completo"/>
-                    <i className="far fa-user"></i>
-                  </div>
-                  <div className="id">
-                    <input id="email" type="email" placeholder="Correo Electrinico"/>
-                    <i className="far fa-envelope"></i>
-                  </div>
-                  <textarea id="send" cols="15" rows="5" placeholder="Ingrese su Opinión aqui..."></textarea>
-                  <button>Enviar</button>  
-                </form>
+            <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
             </div>
         </body>
     </div>

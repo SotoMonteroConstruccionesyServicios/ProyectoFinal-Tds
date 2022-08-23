@@ -79,16 +79,15 @@ z=15
         </Modal.Header>
         <Modal.Body>
           para obtener informacion acerca de alguno de nuestros servicios por favor diganos su duda y nosotros le responderemos con la mayor brevedad posible 
-          <div className='dudas'>
           <form ref={form} onSubmit={sendEmail}>
-          <input className='nomb' name="user_name"  id= "nombre" type="text" placeholder="Nombre Completo"/>
-          <i className="far fa-user"></i>
-          <input className='email' name="user_email" id="email" type="email" placeholder="Correo Electrinico"/>
-          <i className="far fa-user"></i>
-          <textarea className='bio' name="message" id="send" color='black' placeholder="Ingrese su duda aqui..."></textarea>
-          <i className="far fa-user"></i>
-          </form >
-          </div>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
